@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+<head>
+    <title>Gery & Gabo</title>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+
+<body>
+    <section class="container">
+        <div class="content">
+            <h1 class="title">GERY ROJAS:</h1>
+            <h2 class="title2">Como quisiera conocer las palabras que me hagan describrir de manera perfecta lo que tu
+                presencia ha traído a la mía, lugares y momentos que se han transformado en hermosos recuerdos gracias a
+                nuestro amor.<br> Quiero agradecerte por todo este tiempo en que le hemos crecido y cambiado juntos,
+                este es
+                mi regalo para nosotros, un espacio que podamos seguir llenando como llenamos nuestros corazones. </h2>
+            <img src="heart-title.png" class="heart-title">
+
+        </div>
+        <div class="content" id="s2">
+            <h1 id="destino">Nuestros Proximos Destinos:</h1>
+            <form id="todo-form">
+                <input type="text" id="todo" />
+                <input type="image" src="love_icon.png" id="loveicon" alt="Submit" width="64" height="64">
+            </form>
+
+            <ul id="todo-list">
+            </ul>
+        </div>
+        <div class="content" id="s3">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="image01.jpg"></div>
+                    <div class="swiper-slide"><img src="image02.jpg"></div>
+                    <div class="swiper-slide"><img src="image03.jpg"></div>
+                    <div class="swiper-slide"><img src="image05.jpeg"></div>
+                    <div class="swiper-slide"><img src="image06.jpeg"></div>
+                    <div class="swiper-slide"><img src="image07.jpeg"></div>
+                    <div class="swiper-slide"><img src="image08.jpeg"></div>
+                    <div class="swiper-slide"><img src="image09.jpeg"></div>
+                    <div class="swiper-slide"><img src="image10.jpeg"> 9</div>
+
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+
+        </div>
+        <div class="content2" id="mainbox">
+            <h1 id="TextComer">¿Qué vamos a comer hoy?</h1>
+            <button class="spin" onclick="spin()">GIRA</button>
+            <img src="arrow-left.png" class="flecha">
+            <div class="box" id="box">
+                <div class="box1">
+                    <span class="font span1"><b>Completos</b></span>
+                    <span class="font span2"><b>Sushi</b></span>
+                    <span class="font span3"><b>Sandwich</b></span>
+                    <span class="font span4"><b>Fajitas</b></span>
+                    <span class="font span5"><b>Papas Fritas<b></span>
+                </div>
+                <div class="box2">
+                    <span class="font span1"><b>BOWL </b></span>
+                    <span class="font span2"><b>AHORRAR</b></span>
+                    <span class="font span3"><b>BURGER </b></span>
+                    <span class="font span4"><b>HANDROLL</b></span>
+                    <span class="font span5"><b>PIZZA</b></span>
+
+                </div>
+                <button class="spin" onclick="spin()">SPIN</button>
+
+
+            </div>
+
+        </div>
+        <audio controls="controls" id="applause" src="./applause.mp3" type="audio/mp3"></audio>
+        <audio controls="controls" id="wheel" src="./wheel.mp3" type="audio/mp3"></audio>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="script.js"></script>
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36251023-1']);
+            _gaq.push(['_setDomainName', 'jqueryscript.net']);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+        <script>
+            try {
+                fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
+                    return true;
+                }).catch(function (e) {
+                    var carbonScript = document.createElement("script");
+                    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+                    carbonScript.id = "_carbonads_js";
+                    document.getElementById("carbon-block").appendChild(carbonScript);
+                });
+            } catch (error) {
+                console.log(error);
+            }
+        </script>
+
+    </section>
+
+</body>
+
+</html>

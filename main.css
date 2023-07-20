@@ -1,0 +1,391 @@
+body {
+    background-color: #E8F3D6;
+
+}
+
+li {
+    float: center;
+}
+
+.title {
+    display: block;
+    color: #00214d;
+    text-align: left;
+    padding: 14px;
+    font-size: 50pt;
+    z-index: 2;
+    position: relative;
+    margin: auto;
+    top: 80px;
+    font-family: 'Pangolin', cursive;
+
+
+
+}
+
+.title2 {
+    color: #00214d;
+    margin-left: 10px;
+    margin-top: 60px;
+    padding: 14px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
+    z-index: 2;
+    text-align: justify;
+    width: 790px;
+    position: absolute;
+
+
+
+}
+
+.title3 {
+    margin: auto;
+    color: #00214d;
+    padding: 14px;
+    font-family: 'Allura', cursive;
+    font-size: 30pt;
+    z-index: 2;
+    position: relative;
+    display: block;
+    text-align: center;
+    bottom: 130px;
+    left: 500px;
+
+}
+
+.heart-title {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    max-width: 450px;
+    height: auto;
+    left: 400px;
+
+}
+
+
+
+
+
+.content {
+    background-color: #FCF9BE;
+    margin: 3em auto;
+    width: 1300px;
+    height: 900px;
+    overflow: hidden;
+    border: 1px #FAAB78;
+    border-style: dotted;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.content2 {
+    background-color: #feffa5;
+    margin: 3em auto;
+    width: 1300px;
+    height: 450px;
+    overflow: visible;
+    border: 1px dashed rgb(241, 248, 207);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+#s2 {
+    background-color: #FCF9BE;
+
+
+
+}
+
+#todo-form {
+    text-align: center;
+}
+
+
+#todo {
+    position: relative;
+    bottom: 70px;
+}
+
+#loveicon {
+    position: relative;
+    bottom: 45px;
+}
+
+
+
+#destino {
+    font-family: 'Mynerve', cursive;
+    font-size: 60px;
+    color: #FAAB78;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+}
+
+
+#todo-list {
+    font-size: 45px;
+    text-align: center;
+    list-style-type: none;
+    padding: 0 0 0 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    font-family: 'Mynerve', cursive;
+    color: #FAAB78;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    bottom: 90px;
+    position: relative;
+
+}
+
+#todo-list li:hover {
+    text-shadow: -1px 0 rgb(250, 101, 101), 0 1px rgb(250, 101, 101), 1px 0 rgb(250, 101, 101), 0 -1px rgb(250, 101, 101);
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+
+}
+
+
+
+.mainbox {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.mainbox:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(./arrow-bottom.png) no-repeat;
+    background-size: 5%;
+    left: 5%;
+    top: 48%;
+    transform: rotate(90deg);
+}
+
+.box {
+    width: 35%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid #78cf8e;
+    overflow: hidden;
+    transition: all ease-in-out 5s;
+    transform: rotate(90deg);
+    margin-left: 70px;
+    bottom: 605px;
+}
+
+span {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}
+
+.span1 {
+    clip-path: polygon(0 17%, 0 50%, 50% 50%);
+    background-color: rgb(54, 2, 50);
+}
+
+.span2 {
+    clip-path: polygon(0 17%, 30% 0, 50% 50%);
+    background-color: rgb(240, 181, 255);
+}
+
+.span3 {
+    clip-path: polygon(30% 0, 71% 0, 50% 50%);
+    background-color: rgb(232, 70, 247);
+}
+
+.span4 {
+    clip-path: polygon(71% 0, 100% 18%, 50% 50%);
+    background-color: rgb(193, 19, 247);
+}
+
+.span5 {
+    clip-path: polygon(100% 18%, 100% 50%, 50% 50%);
+    background: #94017b;
+}
+
+.box2 .span3 {
+    background-color: #d481f5;
+}
+
+.box2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+}
+
+.font {
+    color: white;
+    font-size: 20px;
+
+}
+
+.box1 .span1 b {
+    position: absolute;
+    top: 39%;
+    right: 60%;
+    transform: rotate(200deg);
+    text-align: center;
+}
+
+.box1 .span2 b {
+    position: absolute;
+    top: 25%;
+    right: 57%;
+    transform: rotate(-130deg);
+}
+
+.box1 .span3 b {
+    position: absolute;
+    top: 20%;
+    right: 36%;
+    transform: rotate(-90deg);
+}
+
+.box1 .span4 b {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    transform: rotate(-45deg);
+}
+
+.box1 .span5 b {
+    position: absolute;
+    top: 38%;
+    right: 10%;
+    transform: rotate(-15deg);
+    text-align: center;
+}
+
+.box2 .span1 b {
+    position: absolute;
+    top: 34%;
+    right: 70%;
+    transform: rotate(200deg);
+}
+
+.box2 .span2 b {
+    position: absolute;
+    top: 20%;
+    right: 60%;
+    transform: rotate(-130deg);
+    text-align: center;
+}
+
+.box2 .span3 b {
+    position: absolute;
+    top: 15%;
+    right: 40%;
+    transform: rotate(270deg);
+}
+
+.box2 .span4 b {
+    position: absolute;
+    top: 27%;
+    right: 20%;
+    transform: rotate(310deg);
+}
+
+.box2 .span5 b {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    transform: rotate(-20deg);
+    text-align: center;
+}
+
+.spin {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -330px;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: #f37ce3;
+    color: #fff;
+    box-shadow: 0 5px 20px #000;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.spin:active {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.mainbox.animate:after {
+    animation: animateArrow 0.7s ease infinite;
+}
+
+audio {
+    display: none;
+}
+
+@keyframes animateArrow {
+    50% {
+        right: -50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .mainbox {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+#TextComer {
+    justify-content: left;
+    font-size: 80px;
+    width: 400px;
+    height: 430px;
+    margin-left: 800px;
+    font-family: 'Pangolin', cursive;
+}
+
+.flecha {
+    z-index: 9999;
+    width: 4%;
+    height: auto;
+    position: relative;
+    margin-left: 510px;
+    bottom: 340px;
+    text-shadow: #000;
+
+}
+
+#TextGallery {
+    text-align: center;
+}
+
+.swiper {
+    width: 80%;
+    height: fit-content;
+    text-align: center;
+
+}
+
+.swiper-slide img {
+    width: 70%;
+    text-align: center;
+}
